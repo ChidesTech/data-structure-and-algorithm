@@ -5,6 +5,7 @@ const personEntries  = Object.entries(person);
 console.log(personEntries);
 
 const set = new Set([1,2,3,4]);
+
 set.add(5);
 set.add("5");
 set.add({name : "des"});
